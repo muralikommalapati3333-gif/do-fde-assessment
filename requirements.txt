@@ -1,0 +1,11 @@
+# Phase 1: pull issues from GitHub.
+requests>=2.31.0
+
+# Phase 3: call DigitalOcean Serverless Inference (OpenAI-compatible API)
+# and read the API key from a local .env file.
+openai>=1.40.0
+python-dotenv>=1.0.0
+
+# Phase 6: the UI (Streamlit) and the tables/charts behind it (pandas).
+streamlit>=1.37.0
+pandas>=2.0.0

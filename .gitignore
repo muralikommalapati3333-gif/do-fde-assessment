@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets - never commit the real key
+.env
+
+# Local editor
+.vscode/
+.idea/
+
+# Local run log (the run RESULTS in data/runs/*.json are kept on purpose)
+data/runs/sweep_log.txt

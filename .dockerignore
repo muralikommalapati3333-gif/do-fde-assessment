@@ -1,0 +1,23 @@
+# Keep secrets, local junk, and heavy dev files OUT of the Docker image.
+
+# Secrets - the API key must never be baked into the image.
+.env
+
+# Python caches / virtual envs
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Local logs / scratch
+data/runs/sweep_log.txt
+*.log
