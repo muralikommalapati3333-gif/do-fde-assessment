@@ -1,6 +1,6 @@
 # Choosing a cheaper model to triage doctl issues
 
-**Live app:** _<link added after deploy>_
+**Live app:** https://do-fde-assessment-app-ovafs.ondigitalocean.app
 
 **Short version of my recommendation:** run **`deepseek-4-flash`** for everyday
 triage, and keep **`gemma-4-31B-it`** on hand as a backup that runs on separate
